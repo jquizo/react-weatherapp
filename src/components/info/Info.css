@@ -1,0 +1,86 @@
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1#weather {
+    text-align: left;
+    text-shadow: 1px 1px 1px white;
+}
+h1#forecast {
+    color: white;
+    text-align: right;
+    margin-left: 2rem;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+hr {
+    border-top: none;
+}
+
+p {
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+   
+}
+
+.description {
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.tempbuttons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.btn:first-child {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+button {
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    text-shadow: 0.5px 0.5px 0.5px #343434;
+    background: -webkit-linear-gradient(to right, #ffcF1b, #FF881B);
+    background: linear-gradient(to right, #FFA62E, #EA4D2C);
+    border-radius: 14px;
+    width: 40px;
+    height: 45px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+
+}
+
+button:hover {
+    background: goldenrod;
+}
+
+.clicked {
+    background: -webkit-linear-gradient(to right, #3499FF, #3A3985 );
+    background: linear-gradient(to right, #3499FF, #3A3985);
+    outline: none;
+}
+
